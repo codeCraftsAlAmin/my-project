@@ -16,13 +16,15 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "mongoose": "^8.4.1",
     "nodemon": "^3.1.0",
     "random-city-name": "^1.0.2",
     "random-fruits-name": "^1.10.0",
-    "random-movie-names": "^1.0.2"
+    "random-movie-names": "^1.0.2",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "mocha": "^9.2.2"

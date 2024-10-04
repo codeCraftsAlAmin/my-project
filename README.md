@@ -13,3 +13,4 @@ Currently, two official plugins are available:
 "# trash-code" 
 "# crud-nodeexpress" 
 # crud-nodeexpress
+"# crud-express2.0" 

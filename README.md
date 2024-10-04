@@ -15,3 +15,4 @@ Currently, two official plugins are available:
 # crud-nodeexpress
 "# crud-express2.0" 
 # crud-express2.0
+# crud-express2.0

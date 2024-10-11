@@ -1,18 +1,18 @@
 const express = require("express");
-const cors = require("cors");
 const app = express();
-const userRouter = require("./routes/users.route.cjs");
+const cors = require("cors");
+const userRouter = require("./router/users.route.cjs");
 require("./config/db.cjs");
 
-// json readers
+// expresses to read json data
 app.use(cors());
-app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.urlencoded({ extends: true }));
 
-// user router
-app.use("/api/user", userRouter);
+// users route
+app.use("/api/users", userRouter);
 
-// global router
+// main/html route
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/./views/index.html");
 });

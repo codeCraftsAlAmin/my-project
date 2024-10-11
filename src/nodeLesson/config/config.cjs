@@ -1,11 +1,12 @@
 require("dotenv").config();
 
+// to access port and url globally
 const dev = {
   app: {
-    port: process.env.PORT || 4000,
+    port: process.env.PORT || 3000,
   },
   db: {
-    url: process.env.DB_URL || "mongodb://localhost:270178/userDemoDB",
+    url: process.env.DB_URL || "mongodb://localhost:2717/userDemoDB",
   },
 };
 

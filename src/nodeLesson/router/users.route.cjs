@@ -4,14 +4,15 @@ const {
   createUsers,
   getSingleUser,
   deleteUser,
-  updateUsers,
+  updateUser,
 } = require("../controller/users.controller.cjs");
 const router = express.Router();
 
+// crud operations
 router.get("/", getAllUsers);
 router.get("/:id", getSingleUser);
 router.post("/", createUsers);
+router.patch("/:id", updateUser);
 router.delete("/:id", deleteUser);
-router.patch("/:id", updateUsers);
 
 module.exports = router;
